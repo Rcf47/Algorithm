@@ -30,3 +30,7 @@ test('sequance  2 equal 2 return index 0', () => {
 test('sequance  equal 2 return index -1', () => {
   expect(findx(seq5, x)).toBe(-1);
 });
+
+test('1 3 2 equal 3 something return index 1', () => {
+  expect(findx(seq1, 3)).toBe(1);
+});
